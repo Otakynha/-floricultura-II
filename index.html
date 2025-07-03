@@ -2,66 +2,73 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Floricultura - Vendas e Retiradas</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f0fff0;
-      padding: 20px;
-    }
-    h1, h2, h3 {
-      color: #2e8b57;
-    }
-    input, button {
-      padding: 8px;
-      margin: 5px;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-    button {
-      background-color: #2e8b57;
-      color: white;
-      border: none;
-    }
-    button:hover {
-      background-color: #246b45;
-    }
-    ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
-    li {
-      background: #dfffdf;
-      margin-bottom: 5px;
-      padding: 8px;
-      border-radius: 5px;
-    }
-    .total {
-      font-weight: bold;
-      font-size: 18px;
-      margin-top: 10px;
-      color: #006400;
-    }
-    .historico {
-      margin-top: 30px;
-      border-top: 2px dashed #2e8b57;
-      padding-top: 10px;
-    }
-    label {
-      margin-left: 10px;
-    }
-    #detalhes-dia {
-      margin-top: 20px;
-      display: none;
-      background: #f8fff8;
-      padding: 10px;
-      border-radius: 8px;
-      border: 1px solid #bcd;
-    }
+  font-family: Arial, sans-serif;
+  background: #f0fff0;
+  padding: 20px;
+  margin: 0;
+  max-width: 600px;
+  margin: auto;
+}
+h1, h2, h3 {
+  color: #2e8b57;
+}
+input, button {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+button {
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+}
+button:hover {
+  background-color: #246b45;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+li {
+  background: #dfffdf;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.total {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  color: #006400;
+}
+.historico {
+  margin-top: 30px;
+  border-top: 2px dashed #2e8b57;
+  padding-top: 10px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+#detalhes-dia {
+  margin-top: 20px;
+  display: none;
+  background: #f8fff8;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bcd;
+}
   </style>
 </head>
 <body>
-
+<main>
   <h1>Controle da Floricultura 🌸</h1>
 
   <!-- Vendas -->
